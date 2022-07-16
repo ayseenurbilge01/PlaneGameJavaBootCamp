@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plane Game</title>
+  </head>
+  <style>
+
+    body {
+      width: 100%;
+      overflow: hidden;
+      background: url("image.jpeg");
+      background-size: cover;
+    }
+    
+
+    #jet {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: url("plane.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      left: 50%;
+      bottom: 0px;
+    }
+
+    .rocks {
+      position: absolute;
+      top: 0px;
+      width: 250px;
+      height: 250px;
+      background: url("cloud.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+  </style>
+  <script src="app.js" defer></script>
+  <body>
+    <div id="board">
+      <div class="rocks"></div>
+      <div id="jet"></div>
+    </div>
+  </body>
+</html>
