@@ -1,6 +1,6 @@
 # PlaneGameJavaBootCamp
 
-Basit bir uçak oyunu tasarlanmıştır. Uçak sağa ve sola hareket edebilmektedir. Kodda yapılan düzenlemeler ve gerekli bilgiler açıklama satırı olarak eklenmiştir. 
+Basit bir uçak oyunu tasarlanmıştır. Uçak sağa ve sola hareket edebilmektedir. Kodun açıklamaları açıklama satırı olarak eklenmiştir. 
 
 
 Kaynak
